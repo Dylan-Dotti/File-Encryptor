@@ -1,0 +1,10 @@
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\bin\Debug\FileEncryptor.exe.config
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\bin\Debug\FileEncryptor.exe
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\bin\Debug\FileEncryptor.pdb
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.csprojAssemblyReference.cache
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.Properties.Resources.resources
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.csproj.GenerateResource.cache
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.csproj.CoreCompileInputs.cache
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.exe
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.pdb
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.MainForm.resources
