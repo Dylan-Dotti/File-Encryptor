@@ -7,4 +7,5 @@ D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.csp
 D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.csproj.CoreCompileInputs.cache
 D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.exe
 D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.pdb
-D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.MainForm.resources
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.FileCryptoForm.resources
+D:\Github\File-Encryptor\FileEncryptor\FileEncryptor\obj\Debug\FileEncryptor.StringCryptoForm.resources

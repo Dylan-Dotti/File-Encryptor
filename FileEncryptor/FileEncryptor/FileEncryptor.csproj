@@ -47,6 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CryptographyService.cs" />
+    <Compile Include="FileCryptoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileCryptoForm.Designer.cs">
+      <DependentUpon>FileCryptoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileCryptographyService.cs" />
     <Compile Include="StringCryptoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +62,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FileCryptoForm.resx">
+      <DependentUpon>FileCryptoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StringCryptoForm.resx">
       <DependentUpon>StringCryptoForm.cs</DependentUpon>
     </EmbeddedResource>

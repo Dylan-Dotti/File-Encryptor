@@ -17,7 +17,7 @@ namespace FileEncryptor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StringCryptoForm());
+            Application.Run(new FileCryptoForm());
         }
     }
 }
