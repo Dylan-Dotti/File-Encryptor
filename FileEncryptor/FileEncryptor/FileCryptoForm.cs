@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,15 +50,32 @@ namespace FileEncryptor
             {
                 cryptoService.EncryptFile(path, key);
             }
+            else if (folderRadioButton.Checked)
+            {
+                cryptoService.EncryptFolder(path, key);
+            }
         }
 
         private void decryptButton_Click(object sender, EventArgs e)
         {
             string path = selectionLabel.Text;
             string key = passwordInput.Text;
-            if (fileRadioButton.Checked)
+            try
             {
-                cryptoService.DecryptFile(path, key);
+                if (fileRadioButton.Checked)
+                {
+                    cryptoService.DecryptFile(path, key);
+                }
+                else if (folderRadioButton.Checked)
+                {
+                    cryptoService.DecryptFolder(path, key);
+                }
+            }
+            catch (CryptographicException)
+            {
+                MessageBox.Show(
+                    "Decryption failed. Either the password is incorrect or an entity has not been encrypted",
+                    "Decryption error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

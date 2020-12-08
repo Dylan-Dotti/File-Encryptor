@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FileEncryptor
 {
@@ -30,12 +27,26 @@ namespace FileEncryptor
 
         public void EncryptFolder(string path, string key)
         {
-
+            foreach (string filePath in Directory.GetFiles(path))
+            {
+                EncryptFile(filePath, key);
+            }
+            foreach (string directory in Directory.GetDirectories(path))
+            {
+                EncryptFolder(directory, key);
+            }
         }
 
         public void DecryptFolder(string path, string key)
         {
-
+            foreach (string filePath in Directory.GetFiles(path))
+            {
+                DecryptFile(filePath, key);
+            }
+            foreach (string directory in Directory.GetDirectories(path))
+            {
+                DecryptFolder(directory, key);
+            }
         }
     }
 }
